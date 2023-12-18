@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+body,html{
+    width: 100%;
+    height: 100%;
+}
+
+
+#main{
+    width: 100%;
+}
+
+#page1 {
+    width: 100%;
+    height: 100vh;
+}
+
+#nav{
+    width: 100%;
+    height: 7vh;
+    box-shadow: 0px -20px 60px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+    z-index: 10;
+}
+
+#nav h2{
+    color: rgb(254, 129, 254);
+    font-size: 3vw;
+    font-weight: 600;
+    letter-spacing: -.1vw;
+}
+
+#nav h2>span{
+    color: rgb(103, 103, 247);
+    text-decoration-line: underline;
+}
+
+#middle-nav{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#middle-nav h3{
+    font-size: 1.3vw;
+    font-weight: 100;
+}
+
+#nav-icon {
+    display: flex;
+    gap: 10px;
+}
+
+
+#bottom-nav{
+    position: relative;
+    z-index: -1;
+    width: 100%;
+    height: 93vh;
+    display: flex;
+    background-image: url("./image/bg1.png");
+    background-size:contain;
+}
+
+#left-nav{
+    width: 50%;
+    height: inherit;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 70px;
+    gap: 15px;
+}
+
+#left-nav h2{
+    font-size: 7vw;
+    font-weight: 700;
+    line-height: 0.8;
+    background: rgb(249,59,241);
+background: linear-gradient(142deg, rgba(249,59,241,1) 0%, rgba(142,40,167,1) 17%, rgba(56,19,123,1) 32%, rgba(7,7,99,1) 46%, rgba(9,9,121,1) 59%, rgba(6,81,168,1) 71%, rgba(1,188,239,1) 86%, rgba(0,212,255,1) 98%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+#left-nav p{
+    width: 90%;
+    font-size: 1.2vw;
+    margin-top: 40px;
+    font-weight: 100;
+}
+
+
+#left-nav button{
+    padding: 10px 40px;
+    width: 40%;
+    border: none;
+    background: rgb(249,59,241);
+    background: linear-gradient(142deg, rgba(249,59,241,1) 0%, rgba(142,40,167,1) 17%, rgba(56,19,123,1) 32%, rgba(7,7,99,1) 46%, rgba(9,9,121,1) 59%, rgba(6,81,168,1) 71%, rgba(1,188,239,1) 86%, rgba(0,212,255,1) 98%);
+    color: white;
+    border-radius: 20px;
+    font-size: 1vw;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+#right-nav{
+    height: inherit;
+    width: 50%;
+    padding: 10px;
+}
+
+#right-nav img{
+    width: 100%;
+    height: 100%;
+}
+
+
+#page2{
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+}
+
+.cards{
+    width: 19%;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#star-icon {
+    color: rgb(214, 214, 73);
+
+}
+
